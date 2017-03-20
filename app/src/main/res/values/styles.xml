@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Home">
+        <item name="android:background">@drawable/init</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">?android:windowNoTitle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TitleTextAppearance"
+        parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textColor">@color/textColorTitle</item>
+    </style>
+
+    <style name="SummaryTextAppearance"
+        parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_summary</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+    <style name="HeaderTitleTextAppearance"
+        parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_header_title</item>
+        <item name="android:textColor">@color/textColorTitle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+
+
+
+</resources>
